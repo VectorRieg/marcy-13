@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    background-color:#e1e1e3;
+} 
+.center{
+    text-align: center;
+}
+.brancoantigo{
+    color: antiquewhite;
+}
+.cinza{
+    color: gray;
+}
+.logo{
+    flex: 10%;
+}
+.barra{ 
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-image: linear-gradient(180deg,#333366,#202040,#0A0A15);
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.elemento{
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(jaci-A.webp);
+    background-position: center;
+
+}
+.elemento img{
+    width: 400px;
+}
+.imag2{
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(Jaci-B.webp);
+    background-position: center;
+}
+.link{
+    font-size: 30px;
+    color: #adadad;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 20px 16px;
+}
+.link:hover{
+    color: hwb(235 14% 39%);
+    background-color: hsl(240, 1%, 23%);
+    background-image: linear-gradient(180deg,#242449,#141429,#000000);
+}
+.separa{
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.tamh3{
+    font-size: 80px;
+}
+.tamh2{
+    font-size: 50px;    
+}
+section{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:10%;
+    margin-right:10%;
+    height: 1px;
+    padding: 1%;
+    text-align: center;
+}
+footer{
+    font-size: 40px;
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg,#333366,#202040,#0A0A15);
+    text-align: center;
+    border-top: 20px;
+}
+.logo-rodape{
+    padding: 10px;
+}
